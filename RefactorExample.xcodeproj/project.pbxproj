@@ -14,6 +14,10 @@
 		57002EC92316647D00AFDA60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57002EC72316647D00AFDA60 /* LaunchScreen.storyboard */; };
 		57002ED42316647D00AFDA60 /* RefactorExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57002ED32316647D00AFDA60 /* RefactorExampleTests.swift */; };
 		57002EDF2316647D00AFDA60 /* RefactorExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57002EDE2316647D00AFDA60 /* RefactorExampleUITests.swift */; };
+		57002F06231670B800AFDA60 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57002F03231670B800AFDA60 /* Movie.swift */; };
+		57002F07231670B800AFDA60 /* Rental.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57002F04231670B800AFDA60 /* Rental.swift */; };
+		57002F08231670B800AFDA60 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57002F05231670B800AFDA60 /* Customer.swift */; };
+		57002F0A2316742200AFDA60 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57002F092316742200AFDA60 /* Price.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		57002EDA2316647D00AFDA60 /* RefactorExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RefactorExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57002EDE2316647D00AFDA60 /* RefactorExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefactorExampleUITests.swift; sourceTree = "<group>"; };
 		57002EE02316647D00AFDA60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57002F03231670B800AFDA60 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		57002F04231670B800AFDA60 /* Rental.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rental.swift; sourceTree = "<group>"; };
+		57002F05231670B800AFDA60 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		57002F092316742200AFDA60 /* Price.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 		57002EBD2316647D00AFDA60 /* RefactorExample */ = {
 			isa = PBXGroup;
 			children = (
+				57002F02231670B800AFDA60 /* 多态取代与价格有关的条件逻辑 */,
 				57002EBE2316647D00AFDA60 /* AppDelegate.swift */,
 				57002EC02316647D00AFDA60 /* ViewController.swift */,
 				57002EC22316647D00AFDA60 /* Main.storyboard */,
@@ -123,6 +132,17 @@
 				57002EE02316647D00AFDA60 /* Info.plist */,
 			);
 			path = RefactorExampleUITests;
+			sourceTree = "<group>";
+		};
+		57002F02231670B800AFDA60 /* 多态取代与价格有关的条件逻辑 */ = {
+			isa = PBXGroup;
+			children = (
+				57002F03231670B800AFDA60 /* Movie.swift */,
+				57002F04231670B800AFDA60 /* Rental.swift */,
+				57002F05231670B800AFDA60 /* Customer.swift */,
+				57002F092316742200AFDA60 /* Price.swift */,
+			);
+			path = "多态取代与价格有关的条件逻辑";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				57002EC12316647D00AFDA60 /* ViewController.swift in Sources */,
+				57002F08231670B800AFDA60 /* Customer.swift in Sources */,
+				57002F07231670B800AFDA60 /* Rental.swift in Sources */,
 				57002EBF2316647D00AFDA60 /* AppDelegate.swift in Sources */,
+				57002F06231670B800AFDA60 /* Movie.swift in Sources */,
+				57002F0A2316742200AFDA60 /* Price.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
